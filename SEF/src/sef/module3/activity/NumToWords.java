@@ -16,7 +16,7 @@ public class NumToWords {
 		
 		
 				
-		int i = 8;
+		int i = 5;
 		String numText = "";
 
 		switch(i) {
@@ -29,11 +29,9 @@ public class NumToWords {
 			numText = "THREE";break;
 		case 4:
 			numText = "FOUR";break;
-		case 5:
-			numText = "FIVE";break;
-		// complete the code.
+			// complete the code. As the Result in the PDF presentation should be: Number 5. Thats why I used this way.
 		default:
-			numText = "NUMBER " + i;
+			numText = "Number" + i;
 		}
 		
 		System.out.println(numText);

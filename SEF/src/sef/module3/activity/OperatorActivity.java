@@ -21,11 +21,11 @@ public class OperatorActivity {
 		// Print result
 		System.out.println("Difference = " + result);
 		
-		// Add numbers
-		
+		// Add number
+		result = i+j;
 		
 		// Print result
-		
+		System.out.println("Addition = " + result);
 		
 	}
 
