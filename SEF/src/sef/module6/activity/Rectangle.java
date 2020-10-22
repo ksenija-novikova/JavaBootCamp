@@ -19,7 +19,7 @@ public double calculateArea() {
 @Override
 public double calculatePerimeter() {
 	// TODO Auto-generated method stub
-	return 2 * (length * breadth);
+	return 2 * (length + breadth);
 }
 
 }
